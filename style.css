@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Preahvihear&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Preahvihear&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
 
 .sora_400 {
   font-family: "Preahvihear", sans-serif;
@@ -23,8 +21,6 @@
   font-style: normal;
 }
 
-
-
 /* benar */
 
 .hobar:hover {
@@ -32,22 +28,18 @@
   color: white;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
-transform: scale(1.5) translateY(-5px);
+  transform: scale(1.5) translateY(-5px);
   box-shadow: 6px 6px 10px black;
-  
 }
-
 
 @media (min-width: 991px) {
-  .flex{
+  .flex {
     display: flex;
-    
-     align-items: center;
-     gap: 10px;
+
+    align-items: center;
+    gap: 10px;
   }
 }
-
-
 
 /* My Skills */
 
@@ -56,21 +48,20 @@ transform: scale(1.5) translateY(-5px);
   color: white;
   font-weight: 100;
   transition: all 0.3s ease-in-out;
-transform: scale(1.2) translateY(-5px);
+  transform: scale(1.2) translateY(-5px);
   box-shadow: 1px 1px 1px black;
   border-radius: 90%;
 }
 
-
-
 /* My Testimonial */
-  .pofayl{
-  background-image: url('./images/Ellipse\ 2664.png');
+.pofayl {
+  background-image: url("./images/Ellipse\ 2664.png");
   background-size: cover;
-  background-position:  center;
+  background-position: center;
   background-repeat: no-repeat;
-width: 70px;
-height: 70px;}
+  width: 70px;
+  height: 70px;
+}
 
 .TestimonialCard:hover {
   background-color: #000000;
@@ -78,184 +69,146 @@ height: 70px;}
   font-weight: 100;
   transition: all 0.3s ease-in-out;
   transform: scale(1.1) translateY(-5px);
-
-
 }
 
-
-
 /* Contact */
-.contactHedar{
--webkit-text-stroke: #000000 1px;
+.contactHedar {
+  -webkit-text-stroke: #000000 1px;
   color: #fff;
   font-weight: 60px;
 }
 
 /* About Me */
 
-.AboutText{}
-
+.AboutText {
+}
 
 /* Responsive */
 
- /* benar */
+/* benar */
 @media (max-width: 992px) {
-  .benar{
+  .benar {
     display: contents !important;
-      text-align: center;
-      gap: 10px;
-      
+    text-align: center;
+    gap: 10px;
   }
-  .benarText{
+  .benarText {
     width: 80% !important;
     margin: auto !important;
     align-items: start !important;
-
   }
-  .benarPeragirap{
+  .benarPeragirap {
     width: 100% !important;
-    
-    align-items: start !important;
 
+    align-items: start !important;
   }
-  .benarHedarText{
+  .benarHedarText {
     width: 100% !important;
-    
+
     align-items: start !important;
-
   }
-
 }
 
 /* My Skills */
 
 @media (min-width: 992px) {
-  .MY{
-   
-  display: grid;
-  grid-template-columns: repeat(6, 0fr);
-  justify-content: space-around;
-  align-items: center;
-
-  gap:86px ;
-  
-  
-
+  /* benar */
+  .imges{
+    width: 600px;
   }
-  
+  .MY {
+    display: grid;
+    grid-template-columns: repeat(6, 0fr);
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 86px;
+  }
 }
-
-
 
 @media (max-width: 992px) {
-  .MY{
+  .MY {
     display: grid;
-  
+
     justify-content: center;
-    
-    gap:20px ;
-    
+
+    gap: 20px;
   }
 }
-
-
 
 /* MYAbout */
 
 @media (min-width: 992px) {
-  .MYAbout{
-   
-  display: grid;
-  grid-template-columns: repeat(2, 0fr);
-  justify-content: space-around;
-  align-items: center;
+  .MYAbout {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    justify-content: space-around;
+    align-items: center;
 
-  gap:80px ;
-  
-  
-
+    gap: 80px;
   }
 
-  .AboutText{
+  .AboutText {
     width: 600px;
-   
-      align-items: start;
-      margin-bottom: 60px;
-     
 
+    align-items: start;
+    margin-bottom: 60px;
   }
 
   /* My Projects */
 
+  .pofayl {
+    background-image: url("./images/Ellipse\ 2664.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
 
-  .pofayl{
-  background-image: url('./images/Ellipse\ 2664.png');
-  background-size: cover;
-  background-position:  center;
-  background-repeat: no-repeat;
-width: 70px;
-height: 70px;
-position: absolute;
-
-left: 35%;
-top: 2rem;
-
-
-
-}
-  .MyProjectsCard{
+    left: 35%;
+    top: 2rem;
+  }
+  .MyProjectsCard {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .TestimonialCardperagirap{
-   
-position: absolute;
+  .TestimonialCardperagirap {
+    position: absolute;
 
-top: 8rem;
-left: 15%;
-
-  
-
+    top: 8rem;
+    left: 15%;
   }
-  .testimoniltext{
+  .testimoniltext {
     width: 290px;
     color: #6f6f6f;
     font-weight: bold;
-   
   }
 
-  .TestimonialCardHorijentoline{
-    border: 2px solid #6f6f6f; width: 60%; 
-
-   
+  .TestimonialCardHorijentoline {
+    border: 2px solid #6f6f6f;
+    width: 60%;
   }
 
-  .TestimonialCard{
-    width: 370px; height: 390px; margin-bottom: 20px;
+  .TestimonialCard {
+    width: 370px;
+    height: 390px;
+    margin-bottom: 20px;
   }
 
-  .TestimonialAllCard{
+  .TestimonialAllCard {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 
   /* Contact */
-  .Contact{
+  .Contact {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-
 }
 
-
 /* Contact */
-
-
-
-
-
-
-
