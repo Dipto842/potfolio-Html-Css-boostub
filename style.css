@@ -89,7 +89,7 @@
 @media (max-width: 992px) {
   .benar {
     display: contents !important;
-    text-align: center;
+    
     gap: 10px;
   }
   .benarText {
@@ -112,6 +112,11 @@
 /* My Skills */
 
 @media (min-width: 992px) {
+  /* all use */
+  .centar{
+    text-align: center;
+    margin: auto
+  }
   /* benar */
   .imges{
     width: 600px;
@@ -126,15 +131,7 @@
   }
 }
 
-@media (max-width: 992px) {
-  .MY {
-    display: grid;
 
-    justify-content: center;
-
-    gap: 20px;
-  }
-}
 
 /* MYAbout */
 
