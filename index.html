@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- boostab link up  -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -507,7 +507,7 @@
 
       <div>
         <!-- card 1 -->
-        <div class="MyProjectsCard">
+        <div data-aos-delay="200" data-aos="flip-left" class="MyProjectsCard">
           <img
           class="imges"
             width="200px"
@@ -526,10 +526,10 @@
             </p>
           </div>
         </div>
-        <div
+        <div data-aos="flip-left"
+          data-aos-delay="200"
           style="flex-direction: row-reverse; margin-top: 50px"
-          class="MyProjectsCard"
-        >
+          class="MyProjectsCard">
           <img
              class="imges"
             width="200px"
@@ -549,7 +549,7 @@
             </p>
           </div>
         </div>
-        <div style="margin-top: 50px" class="MyProjectsCard">
+        <div data-aos="flip-left" data-aos-delay="200" style="margin-top: 50px" class="MyProjectsCard">
           <img
            class="imges"
             width="200px"
@@ -954,5 +954,12 @@
 
 
       </footer>
+
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
